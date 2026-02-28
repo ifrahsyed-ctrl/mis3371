@@ -1,0 +1,65 @@
+/*
+Program name: style.css
+Author: Ifrah Syed
+Date created: 03/27/2026
+Date last edited: 03/27/2026
+Version: 1.0
+Description: External stylesheet for patient-form.html
+*/
+
+body {
+    background-color: #f0f8ff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #003366;
+}
+
+h1 {
+    color: #004080;
+}
+
+h3 {
+    color: #0066cc;
+}
+
+#header {
+    background-color: #d9e6f2;
+    padding: 20px;
+    text-align: center;
+}
+
+#main {
+    margin: 20px;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+input, select, textarea {
+    padding: 5px;
+}
+
+#footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+a {
+    color: yellow;
+}
+
+a:visited {
+    color: orange;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
