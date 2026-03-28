@@ -210,10 +210,12 @@ Description: Patient Registration Form for We'R'Docs Medical
 </tr>
 
 <tr>
-<td>Health Rating (1-10):</td>
-<td><input type="range" name="health" min="1" max="10"></td>
+<td>
+  <input type="range" name="health" min="1" max="10" id="healthSlider" oninput="updateHealthValue(this.value)">
+  <span id="healthValue">5</span>
+</td>
 </tr>
-
+    
 <tr>
 <td colspan="2">
 <input type="reset" value="CLEAR AND START OVER">
